@@ -15,7 +15,8 @@ To view this project in action do the following:
 ### Backend
 - `npm install` module dependencies.
 - Create a `.env` file. You can use the `.env.example` provided.
-- `npm run develop` to get the project installed
+- Create a local postgres database. More database settings are located in `/config/database.js`
+- Use `npm run develop` to get the project installed
 - Create an initial admin account to login
 - Create a Beer and Category Collection Types with the following fields.
 - Category:
@@ -33,6 +34,7 @@ To view this project in action do the following:
 ### Frontend
 - `npm install` module dependencies.
 - Create a `.env.local` file. You can use the `.env.example.local` provided.
+- Use `npm run dev` to start the frontend.
 
 That's all you need to get the project up and running.
 
