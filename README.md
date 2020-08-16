@@ -1,5 +1,5 @@
 # Beers demo
-I made this JAMstack demo to show different tools and frameworks working together.
+I made this small demo to show different tools and frameworks working together.
 
 The stack and tools mainly used here are:
 
