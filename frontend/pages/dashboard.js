@@ -9,18 +9,12 @@ const Dashboard = () => {
     redirectTo: "/login",
   });
 
-  const handleRedact = (user) => {
-    user.user.email = "redacted";
-    user.user.username = "Danny";
-    return JSON.stringify(user, null, 4);
-  };
-
   return (
     <Layout>
       {user?.isLoggedIn && (
         <div>
           <div>Here you should see your user dashboard if you're logged in</div>
-          <pre className="overflow-hidden">{handleRedact(user)}</pre>
+          <pre className="overflow-hidden">{JSON.stringify(user, null, 4)}</pre>
         </div>
       )}
     </Layout>
